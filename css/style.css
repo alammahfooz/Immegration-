@@ -734,3 +734,24 @@
   font-size: 60px;
   padding-top: 20px;
 }
+
+
+    .office-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.office-img h4 {
+  position: absolute;
+  bottom: 10px;          /* overlap bottom 10px */
+  left: 15px;
+  margin: 0;
+  padding: 6px 14px;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+/* Optional: better readability */
+.office-img img {
+  display: block;
+}
