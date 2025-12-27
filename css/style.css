@@ -393,25 +393,19 @@
 }
 
 .carousel-header .carousel-inner .carousel-item img {
-    /* position: absolute; */
+    position: relative;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
- 
-
-
 
 @media (max-width: 768px) {
-  .carousel-header .carousel-inner {
-    height: auto; /* let container adjust height */
-  }
-
+ 
   .carousel-header .carousel-inner .carousel-item img {
-    position: relative; /* change absolute to relative */
+    position: absolute; /* change absolute to relative */
     width: 100%;
-    height: auto; /* auto height to show full image */
+    min-height: 100vh;  /* auto height to show full image */
     object-fit: cover; /* optional, you can use contain if you want full image */
   }
 }
