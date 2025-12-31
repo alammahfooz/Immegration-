@@ -757,31 +757,4 @@
 }
 
 
-/* Navbar link default color */
-.navbar .nav-link {
-    color: #198754 !important;   /* bold green */
-    font-weight: 600;
-}
 
-/* Hover state */
-.navbar .nav-link:hover,
-.navbar .nav-link:focus {
-    color: #145c32 !important;   /* darker green */
-}
-
-/* Active link */
-.navbar .nav-link.active {
-    color: #198754 !important;
-    font-weight: 700;
-}
-
-/* Dropdown items */
-.navbar .dropdown-menu .dropdown-item {
-    color: #198754;
-    font-weight: 500;
-}
-
-.navbar .dropdown-menu .dropdown-item:hover {
-    background-color: #198754;
-    color: #ffffff;
-}
