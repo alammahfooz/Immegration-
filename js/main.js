@@ -75,3 +75,4 @@
 
 })(jQuery);
 
+document.documentElement.style.setProperty('--treck-base', '#23533B');
