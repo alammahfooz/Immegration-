@@ -772,37 +772,38 @@
 }
 .navbar-nav a{
     color: #23533B !important;
+    padding: 0px 20px !important;
 }
 
 /* Navbar link default color */
 .navbar .nav-link {
-    color: #23533B !important;   /* bold green */
+    color: #FFFDD0 !important;   /* bold green */
     font-weight: 600;
 }
 
 /* Hover state */
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
-    color: #145c32 !important;   /* darker green */
+    color: #FFFDD0 !important;   /* darker green */
 }
 
 /* Active link */
 .navbar .nav-link.active {
-    color: #23533B !important;
+    color: #FFFDD0 !important;
     font-weight: 700;
 }
 
 /* Dropdown items */
 .navbar .dropdown-menu .dropdown-item {
-    color: #23533B;
+    color: #FFFDD0;
     font-weight: 500;
 }
 
 .navbar .dropdown-menu .dropdown-item:hover {
     background-color: #23533B;
-    color: #ffffff !important;
+    color: #FFFDD0 !important;
 }
 
   .footer-item a:hover i {
-    color: #003A66 !important;
+    color: #FFFDD0 !important;
 }
