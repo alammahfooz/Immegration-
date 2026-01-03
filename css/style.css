@@ -819,3 +819,19 @@
     
   }
 }
+
+
+  .process-one__single .process-one__icon,
+.process-one__single .process-one__icon * {
+  pointer-events: none;
+}
+.process-one__single {
+  pointer-events: none;
+}
+
+  .section-title__border-box{
+                background-color: #23533B !important;
+            }
+            .section-title__border-box:after{
+                border: 1px solid gray !important;
+            }
